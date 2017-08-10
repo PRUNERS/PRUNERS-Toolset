@@ -1,7 +1,10 @@
 <img src="doc/images/pruners_logo.png" height="60%" width="60%" alt="PRUNERS logo" title="PRUNERS" align="middle" />
 
 ## OVERVIEW
+
 Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable techniques to aid applications to obtain the reproducibility. Specifically, our strategy is to accomplish this by developing a multilevel analysis and control toolset called the PRUNERS Toolset, which combines static and dynamic analysis techniques to detect, control and eliminate targeted sources of non-determinism, as introduced through parallel programming libraries and APIs.
+
+<a href="https://www.youtube.com/watch?v=QvqDbradQQM" target="_blank">Watch the video of PRUNERS for the R&D100 submission.</a>
 
 ## COMPONENTS
 
@@ -40,7 +43,7 @@ ReMPI is a highly scalable scalable record-and-replay tool for MPI applications.
 
 More Information about ReMPI can be found [here](https://pruners.github.io/rempi/).
 
-## INSTALLING THE PRUNERS 
+## INSTALLING THE PRUNERS
 The PRUNERS Toolset has been packaged in the [Spack](https://github.com/LLNL/spack) package manager for easy installation of the PRUNERS components and all of their dependent packages.
 
     git clone https://github.com/LLNL/spack.git
@@ -55,4 +58,4 @@ FLiT packaging in Spack is a work in progress. In the meantime, refer to [the FL
 
 ## LICENSE
 
-Each individual PRUNERS tool is released under either the GNU Lesser General Public License (LGPL) or the Berkeley Software Distribution (BSD) public license. Please refer to the LICENSE file included in each project for more details. 
+Each individual PRUNERS tool is released under either the GNU Lesser General Public License (LGPL) or the Berkeley Software Distribution (BSD) public license. Please refer to the LICENSE file included in each project for more details.
